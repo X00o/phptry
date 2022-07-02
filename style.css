@@ -1,0 +1,82 @@
+.modal-dialog {
+  top: 70px;
+}
+.modal-footer > span {
+  opacity: 0.7;
+}
+
+.signup-link > a {
+  text-decoration: none;
+  color: green;
+  opacity: 0.6;
+}
+
+.signup-link > a:hover {
+  opacity: 1;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 120px;
+  margin-top: 10px;
+}
+.project-link {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.project-link-box {
+  width: 100%;
+}
+/* class="w-50 p-4 "  */
+.btn3 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  /* margin-bottom:30px; */
+  /* margin: auto; */
+}
+
+.img_preview {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.img_preview_box {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.image img {
+  max-width: 95%;
+  background-color: #eee;
+  padding: 10px;
+}
+.project-name h2 {
+  text-align: center;
+}
+
+.img-description {
+  position: relative;
+  width: 100%;
+}
+.img-description-box {
+  margin: 0 0 0 55%;
+}
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s ease all;
+}
+.dropdown-menu.show {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 0.5s ease all;
+}
